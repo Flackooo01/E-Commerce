@@ -1,0 +1,118 @@
+.popup .container{
+    margin-top: 100px;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    
+    text-align: center;
+    border-radius: 50px;
+    background:#262626;
+    box-shadow: 38px 38px 56px rgb(163,159,159), -25px -25px 38px rgb(163,159,159);
+    z-index: 1;
+    width: 400px;
+    min-height: 450px;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+.popup .close-btn{
+    margin-left: 95%;
+    margin-top: -7%;
+    width: 30px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 50%;
+    background: rgba(66,65,65);
+    box-shadow: 5px 5px 15px #302d2d, -15px -5px 15px #302d2d;
+    cursor: pointer;
+    z-index: 2;
+    transition: box-shadow .35s ease !important;
+}
+.popup .close-btn:active{
+        background: linear-gradient(145deg, #222222, #29292929);
+        box-shadow: 5px 5px 10px #646161, -5px -5px 10px #646161;
+        border: none;
+}
+.popup.active .container{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%)scale(1);
+}
+.container .login-text{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+    
+}
+
+
+.container  .login-email .input-group input{
+    color: white;
+    width: 100%;
+    border: 2px solid #ffffff;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+    margin-top: 10px;
+}
+.container .login-email .input-group input:focus .container .login-email .input-group input:valid{
+    border-color: #a29bfe;
+}
+
+.container .login-email .input-group .btn{
+    width: 30%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: rgba(59,59,60,0.99);
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 10px;
+    display: block;
+}
+.container  .login-email .input-group .btn:hover{
+    transform:  translateY(-5px);
+    background: #5b577e;
+}
+.input-text{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5%;
+    color: white;
+}
+.input-text h1{
+    font-size: 15px;
+    margin-top: 8px;
+    margin-left: 7px;
+}
+
+
+.login-register-text{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-top: 8px;
+    margin-left: 10px;
+    display: block;
+}
+.login-register-text a{
+    text-decoration: none;
+    color: rgba(137,137,139,1);
+    margin-left: 5px;
+    
+}
+.login-register-text a:hover{
+    color:rgb(106, 106, 136);
+}
+
+
+

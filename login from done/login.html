@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gaming Accesssories </title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <div class="popup" id="popup-1">
+        <div class="container">
+            <div class="close-btn" onclick="togglePopup()">X</div>
+            <form action="" method="POST" class="login-email">
+                <p class="login-text">Login</p>
+                
+                <div class="input-group">
+                    <input type="email" placeholder="Username" name="email">
+                </div>
+
+                <div class="input-group">
+                    <input type="Password" placeholder="Password" name="password" >
+                </div>
+
+                <div class="input-text">
+                    <input type="checkbox" class="check-box"><h1>Remember me</h1>
+                    
+                </div>
+
+                <div class="input-group">
+                    <button name="submit" class="btn">Login</button>
+                    <button name="submit" class="btn">Clear</button>
+                </div>
+
+                <p class="login-register-text">Don't have an account?<a href="register.html">Register Here</a>.</p>
+            </form>
+        </div>
+    </div>  
+
+    <script>
+        function togglePopup(){
+        document.getElementById("popup-1")
+        .classList.toggle("active")
+        }
+    </script>
+</body>
+
+</html>

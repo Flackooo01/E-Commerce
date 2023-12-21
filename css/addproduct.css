@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    font-family: 'Poppins' sans-serif;
+}
+.container{
+    min-width: 100vh;
+    height: 450px;
+    background: rgb(78, 76, 76);
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.button{
+    margin-top: 20px;
+}
+.control-label{
+    margin-top: 30px;
+}

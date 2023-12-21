@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    font-family: 'Poppins' sans-serif;
+}
+body{
+    background-image: url(../image/b4.jpg);
+}
+.main-container{
+    min-height: 90vh;
+    width: 99%;
+    background-color: #403d3dba;
+    margin-top: 20px;
+    margin-left: 8px;
+    text-align: center;
+    color: white;
+}
+.main-container a{
+    margin-left: 80%;
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid #ff0000;
+    margin-bottom: 10px;
+}
+.list-1{
+    margin-top: 10px;
+    min-height: 76vh;
+    width: 98%;
+    margin-left: 15px;
+    background-color: #34333394;
+}
+table{
+    width: 99%;
+    margin-left: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+table tr th{
+    font-size:20px;
+    border: 1px solid black;
+    text-align: center;
+    
+}
